@@ -3,8 +3,10 @@
 Smallest Smart Planter / 最小サイズのスマートプランター
 
 # license
-"Smart Planter Short" by WebIoTMakers Okayama 2022 Team Farmer is licensed underCC BY 2.0﻿
+"Smart Planter Short" by WebIoTMakers Okayama 2022 Team Farmer is licensed underCC BYSA 2.0﻿
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>の下に提供されています。
+
 # BOM
 ## 購入品
 |部品|数|備考|
