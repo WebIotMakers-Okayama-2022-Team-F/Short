@@ -2,6 +2,19 @@
 ## Discripotion
 Smallest Smart Planter / 最小サイズのスマートプランター
 
+この装置は、2022年Web×IoT メイカーズチャレンジPLUSで開発したオープンソースの水耕栽培キットです。
+水耕栽培に必要な水量及び液肥の施肥の制御、気温、水温、照度の記録、LEDライトによる照明の追加、カメラによる成長記録撮影を行うことが出来ます。
+種々の制御やDBへのデータ蓄積、Webツールを使ったデータ可視化を一元的に行うため、制御にはRaspberry Pi 4Bを使用していますが、必要な機能に抑えればESP32などのマイコンを使用しても良いでしょう。
+プロジェクト名「Short」は、一株だけの最小構成の育成用に作ったことを意味しています。栽培する植物や数量に応じてハードを拡張してください。
+基本的な制御にはNode-REDを採用しているため、機能拡張や改良を行う際にも容易にプログラムの修正が可能です。
+
+## その他資料
+Web×IoT メイカーズチャレンジPLUSの公式サイトです。
+https://webiotmakers.github.io/2022/
+
+Web×IoT メイカーズチャレンジPLUSの最終発表時の資料です。
+https://docs.google.com/presentation/d/1nIbv-dXtBHpPwt7HMpmYs73selntcH6rF92BJmyO9pU/edit?usp=sharing
+
 
 # BOM
 ## 購入品
