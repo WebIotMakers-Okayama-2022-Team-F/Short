@@ -76,16 +76,24 @@ https://docs.google.com/presentation/d/1nIbv-dXtBHpPwt7HMpmYs73selntcH6rF92BJmyO
 ## Hardware Assy
 
 ## Software
-Raspberry PiのOS及び必要なソフト類をインストールしてください。
-必要とする環境は次の通りです。
+Raspberry PiのOS及び必要なソフト類をインストールしてください。<BR>
+必要とする環境は次の通りです。<BR>
+
+  Raspberry Pi OS Legacy 32bit(buster)
+  Python3
+  OpenCV
+  Node-RED
+  Web-I2C-API
+  MariaDB
+  Grafana
 
 
 ### Raspberry Pi Setup
-Raspberry Piはlegacyの32bit版を使用します。
-Raspberry Pi Imagerを使用し、以下のOSを選択して起動用MicroSDカードを作成してください。
-「OSを選ぶ」⇒「Raspberry Pi OS(other)」⇒Raspberry Pi OS(Legacy)
-
-使用しているOSはlsb_releaseコマンドで確認できます。
+Raspberry Piはlegacyの32bit版を使用します。<BR>
+Raspberry Pi Imagerを使用し、以下のOSを選択して起動用MicroSDカードを作成してください。<BR>
+「OSを選ぶ」⇒「Raspberry Pi OS(other)」⇒Raspberry Pi OS(Legacy)<BR><BR>
+<BR>
+使用しているOSはlsb_releaseコマンドで確認できます。<BR>
 ```
 $ lsb_release -a
 No LSB modules are available.
@@ -101,20 +109,20 @@ Codename:	buster
 sudo raspi-config
 ```
 
-カメラを有効化します。
-[3 Interface Options]->[P1 Camera]->[<はい>]
-SSHを有効化します。
-[3 Interface Options]->[P2 SSH]->[<はい>]
-VNCを有効化します。
-[3 Interface Options]->[P3 VNC]->[<はい>]
-I2Cを有効化します。
-[3 Interface Options]->[P5 I2C]->[<はい>]
+カメラを有効化します。<BR>
+[3 Interface Options]->[P1 Camera]->[<はい>]<BR>
+SSHを有効化します。<BR>
+[3 Interface Options]->[P2 SSH]->[<はい>]<BR>
+VNCを有効化します。<BR>
+[3 Interface Options]->[P3 VNC]->[<はい>]<BR>
+I2Cを有効化します。<BR>
+[3 Interface Options]->[P5 I2C]->[<はい>]<BR>
 
 
 ### Web I2C API instllation
-このシステムではセンサ駆動に一部のセンサ駆動にWeb I2C APIを使用しています。Node-REDから直接センサを駆動する場合は不要です。
+このシステムではセンサ駆動に一部のセンサ駆動にWeb I2C APIを使用しています。Node-REDから直接センサを駆動する場合は不要です。<BR>
 
-作業フォルダを作成してnpmとWeb-I2c-APIをインストールします。
+作業フォルダを作成してnpmとWeb-I2c-APIをインストールします。<BR>
 ```
 mkdir Workspace
 cd Workspace
@@ -131,59 +139,59 @@ mv chirimen-master/ chirimen/
 ```
 
 ### Node-RED installation
-今回はNode-REDでデバイスの操作を統合します。
-次のコマンドでインストールできます。
+今回はNode-REDでデバイスの操作を統合します。<BR>
+次のコマンドでインストールできます。<BR>
 ```
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 ```
 
-再起動時にも自動的にNode-REDが起動するようにします。
+再起動時にも自動的にNode-REDが起動するようにします。<BR>
 ```
 sudo systemctl enable nodered.service
 ```
-詳しくは公式サイトをご確認下さい。
+詳しくは公式サイトをご確認下さい。<BR>
 https://nodered.jp/docs/getting-started/raspberrypi
 
 ### MariaDB installation
-集めたデータはMariaDBというMySQL互換のデータベースに蓄積します。
-MariaDBのインストール方法はQiitaにまとめていますのでこちらを参考にしてください。
-https://qiita.com/airpocket/items/f1dd8e0d32be6075b7de
+集めたデータはMariaDBというMySQL互換のデータベースに蓄積します。<BR>
+MariaDBのインストール方法はQiitaにまとめていますのでこちらを参考にしてください。<BR>
+https://qiita.com/airpocket/items/f1dd8e0d32be6075b7de<BR>
 
 ### Grafana installation
-GrafanaをRPiへインストールする方法は[公式サイトで説明されています](https://grafana.com/tutorials/install-grafana-on-raspberry-pi/)のでこの通りに進めていきます。
+GrafanaをRPiへインストールする方法は[公式サイトで説明されています](https://grafana.com/tutorials/install-grafana-on-raspberry-pi/)のでこの通りに進めていきます。<BR>
 
-パッケージの認証に使用されるAPTキーを追加する。
+パッケージの認証に使用されるAPTキーを追加する。<BR>
 
 ```sh
 wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
 ```
 
-GrafanaAPTリポジトリを追加する。
+GrafanaAPTリポジトリを追加する。<BR>
 
 ```sh
 echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 ```
 
-Grafanaをインストールする。
+Grafanaをインストールする。<BR>
 
 ```sh
 sudo apt-get update
 sudo apt-get install -y grafana
 ```
 
-Grafanaサーバーを有効にする。
+Grafanaサーバーを有効にする。<BR>
 
 ```sh
 sudo /bin/systemctl enable grafana-server
 ```
 
-Grafanaサーバーを起動する。
+Grafanaサーバーを起動する。<BR>
 
 ```sh
 sudo /bin/systemctl start grafana-server
 ```
 
-以上でRPi上でGrafanaが動き始めました。
+以上でRPi上でGrafanaが動き始めました。<BR>
 
 
 ### OpenCV installation
@@ -193,16 +201,21 @@ sudo apt-get install libatlas-base-dev
 sudo pip3 install numpy --upgrade
 ``` 
 
-### MariaDBにデータベースを作成する
-MariaDBに、必要なデータベースを作成します。作成する方法にはRaspberry Pi上から直接SQL言語を使用する方法と、他のWindowsPCなどからGUIツールを使って作成する方法があります。HeidiSQLというツールを使用する方法が簡単ですので以下のページに方法をまとめています。
+### MariaDBにデータベースを作成する<BR>
+MariaDBに、必要なデータベースを作成します。作成する方法にはRaspberry Pi上から直接SQL言語を使用する方法と、他のWindowsPCなどからGUIツールを使って作成する方法があります。HeidiSQLというツールを使用する方法が簡単ですので以下のページに方法をまとめています。<BR>
 https://qiita.com/airpocket/items/5e73444459b7ad5b0666
-
-作成するデータベースは次の構成にします。
-データベース名
+<BR>
+作成するデータベースは次の構成にします。<BR>
+データベース名<BR>
 
 ### Node-REDでセンサを制御し、データベースへ書き込む
+  Node-REDのプログラムはこちらを参照してください。
+  次のノードが必要ですので事前にパレットに追加してください。
+  
 
-### Grafanaで可視化する
+### Grafanaで可視化
+  Grafanaでデータを可視化する方法は次の記事にまとめています。
+  https://qiita.com/airpocket/items/61209b40f0cddf8f90ed
 
 
 # license
