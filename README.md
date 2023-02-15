@@ -76,15 +76,133 @@ https://docs.google.com/presentation/d/1nIbv-dXtBHpPwt7HMpmYs73selntcH6rF92BJmyO
 ## Hardware Assy
 
 ## Software
-### Raspberry Pi Setup
+Raspberry PiのOS及び必要なソフト類をインストールしてください。
+必要とする環境は次の通りです。
 
-### Web I2c API instllation
+
+### Raspberry Pi Setup
+Raspberry Piはlegacyの32bit版を使用します。
+Raspberry Pi Imagerを使用し、以下のOSを選択して起動用MicroSDカードを作成してください。
+「OSを選ぶ」⇒「Raspberry Pi OS(other)」⇒Raspberry Pi OS(Legacy)
+
+使用しているOSはlsb_releaseコマンドで確認できます。
+```
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Raspbian
+Description:	Raspbian GNU/Linux 10 (buster)
+Release:	10
+Codename:	buster
+```
+
+続いて、各種設定を行います。
+次のコマンドでraspi-configを起動してください。
+```
+sudo raspi-config
+```
+
+カメラを有効化します。
+[3 Interface Options]->[P1 Camera]->[<はい>]
+SSHを有効化します。
+[3 Interface Options]->[P2 SSH]->[<はい>]
+VNCを有効化します。
+[3 Interface Options]->[P3 VNC]->[<はい>]
+I2Cを有効化します。
+[3 Interface Options]->[P5 I2C]->[<はい>]
+
+
+### Web I2C API instllation
+このシステムではセンサ駆動に一部のセンサ駆動にWeb I2C APIを使用しています。Node-REDから直接センサを駆動する場合は不要です。
+
+作業フォルダを作成してnpmとWeb-I2c-APIをインストールします。
+```
+mkdir Workspace
+cd Workspace
+npm init -y
+npm install node-web-gpio node-web-i2c
+```
+
+合せてセンサを動かすためのライブラリもダウンロードします。
+```
+cd $HOME
+wget https://github.com/chirimen-oh/chirimen/archive/refs/heads/master.zip
+unzip master.zip
+mv chirimen-master/ chirimen/
+```
 
 ### Node-RED installation
+今回はNode-REDでデバイスの操作を統合します。
+次のコマンドでインストールできます。
+```
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+```
 
-### Python3 installation
+再起動時にも自動的にNode-REDが起動するようにします。
+```
+sudo systemctl enable nodered.service
+```
+詳しくは公式サイトをご確認下さい。
+https://nodered.jp/docs/getting-started/raspberrypi
+
+### MariaDB installation
+集めたデータはMariaDBというMySQL互換のデータベースに蓄積します。
+MariaDBのインストール方法はQiitaにまとめていますのでこちらを参考にしてください。
+https://qiita.com/airpocket/items/f1dd8e0d32be6075b7de
+
+### Grafana installation
+GrafanaをRPiへインストールする方法は[公式サイトで説明されています](https://grafana.com/tutorials/install-grafana-on-raspberry-pi/)のでこの通りに進めていきます。
+
+パッケージの認証に使用されるAPTキーを追加する。
+
+```sh
+wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+```
+
+GrafanaAPTリポジトリを追加する。
+
+```sh
+echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
+```
+
+Grafanaをインストールする。
+
+```sh
+sudo apt-get update
+sudo apt-get install -y grafana
+```
+
+Grafanaサーバーを有効にする。
+
+```sh
+sudo /bin/systemctl enable grafana-server
+```
+
+Grafanaサーバーを起動する。
+
+```sh
+sudo /bin/systemctl start grafana-server
+```
+
+以上でRPi上でGrafanaが動き始めました。
+
 
 ### OpenCV installation
+```
+sudo pip3 install opencv-python
+sudo apt-get install libatlas-base-dev
+sudo pip3 install numpy --upgrade
+``` 
+
+### MariaDBにデータベースを作成する
+MariaDBに、必要なデータベースを作成します。作成する方法にはRaspberry Pi上から直接SQL言語を使用する方法と、他のWindowsPCなどからGUIツールを使って作成する方法があります。HeidiSQLというツールを使用する方法が簡単ですので以下のページに方法をまとめています。
+https://qiita.com/airpocket/items/5e73444459b7ad5b0666
+
+作成するデータベースは次の構成にします。
+データベース名
+
+### Node-REDでセンサを制御し、データベースへ書き込む
+
+### Grafanaで可視化する
 
 
 # license
