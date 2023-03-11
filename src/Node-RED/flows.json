@@ -1,0 +1,4316 @@
+[
+    {
+        "id": "9e0771862cab2f9b",
+        "type": "tab",
+        "label": "zero用コントローラ画面",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4f28ac5d764cb68e",
+        "type": "tab",
+        "label": "メインフロー",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c80a704f826ab278",
+        "type": "tab",
+        "label": "フロー 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e44db36b16481237",
+        "type": "tab",
+        "label": "フロー 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e4cbabdec1ea215b",
+        "type": "group",
+        "z": "4f28ac5d764cb68e",
+        "name": "プロジェクト開始処理",
+        "style": {
+            "label": true,
+            "fill": "#ffefbf"
+        },
+        "nodes": [
+            "6266fbc2334b4601",
+            "eedff4e1d105d7fc",
+            "fcfd5003a39f3633",
+            "ddca9fd45cf1c9b0",
+            "522aaaf7f68685ef",
+            "3508ea594a26e34c",
+            "187a46305c0c15ab",
+            "620452b9e4b09306",
+            "71654dae05ce0d94",
+            "6ebc04efe603d91e",
+            "08d0843460b5011e",
+            "0b89eb52c4dace4f",
+            "8688e6743076cec3",
+            "7fc83fe87dc2ac6d",
+            "63c285acdae2c9c2"
+        ],
+        "x": 34,
+        "y": 199,
+        "w": 1012,
+        "h": 282
+    },
+    {
+        "id": "6c5b9b56f82ec3ba",
+        "type": "group",
+        "z": "4f28ac5d764cb68e",
+        "name": "再起動時処理",
+        "style": {
+            "fill": "#ffffff",
+            "label": true
+        },
+        "nodes": [
+            "82f0dab349c673b8",
+            "079cb1c15cb324b2",
+            "4c5012cf23179c63",
+            "8edde1f549f160ae",
+            "99eaa6202dc9d6d4"
+        ],
+        "x": 34,
+        "y": 79,
+        "w": 1032,
+        "h": 82
+    },
+    {
+        "id": "0bfdb98f68a332bf",
+        "type": "group",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "0dd9d015ee938aec",
+            "09893587e63e1611",
+            "6b29c23ecf7f0bad",
+            "1e6a9d808c7966b3",
+            "b5f8e6fddbc4714d",
+            "b01591372627863e"
+        ],
+        "x": 34,
+        "y": 1179,
+        "w": 1032,
+        "h": 142
+    },
+    {
+        "id": "95955d6af66bd529",
+        "type": "group",
+        "z": "4f28ac5d764cb68e",
+        "name": "タイムラプス撮影",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "5a4f66ea8b76d277",
+            "14cfd09e46c7a249",
+            "5f3996935fcb689a",
+            "a5acd8bda16cc528",
+            "ae951ccf8e293cb2",
+            "6fe6b97f4ce0404e",
+            "f34e2baabf3291d6",
+            "828ba37624f1ce47",
+            "8018cf2161529e66",
+            "bf27958e40936153",
+            "f87b6f13e3a011b3",
+            "aa81b24a5375b0b2",
+            "39951a71305b6816",
+            "9f1d48e66c831518",
+            "c4ebf38b5f1accab",
+            "c4c375703a123f7e"
+        ],
+        "x": 34,
+        "y": 851.5,
+        "w": 1252,
+        "h": 277
+    },
+    {
+        "id": "025677bef24b4269",
+        "type": "group",
+        "z": "4f28ac5d764cb68e",
+        "name": "一時間ごと処理",
+        "style": {
+            "label": true,
+            "stroke": "#bfbfbf",
+            "fill": "#dbcbe7"
+        },
+        "nodes": [
+            "5197691c32db8b56",
+            "c335d7253ae282ed",
+            "dce88a9178b8bac9",
+            "adfec6d98d710f4a",
+            "5aa2be974edb966a",
+            "ee5420b6e7e69201",
+            "e4a1d2261c01dd17",
+            "d914fb020ab6e553",
+            "dd3fbc89490367c5",
+            "b417855ddd7adb1d",
+            "bdc13aae97945d0d",
+            "29bed43edd32ba04",
+            "df2c1706a28b2f22",
+            "155fceeb7c09c253",
+            "92a6cda1f2781d35",
+            "05d5b405ba886c97",
+            "7d9c4570a25b10b5",
+            "184acd1d70d2258d"
+        ],
+        "x": 34,
+        "y": 499,
+        "w": 1032,
+        "h": 342
+    },
+    {
+        "id": "3c1c018753a786b7",
+        "type": "group",
+        "z": "4f28ac5d764cb68e",
+        "name": "タイムラプス撮影",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "edf9ebeceb455ee0",
+            "0ea957f3790977a6",
+            "9b06f0bcb03b7990",
+            "c4dfb5d71d86c08b",
+            "94404e374d6c7974",
+            "0f19a75cec598e8b"
+        ],
+        "x": 54,
+        "y": 2111.5,
+        "w": 1032,
+        "h": 97
+    },
+    {
+        "id": "b4bc3527b98766cf",
+        "type": "group",
+        "z": "4f28ac5d764cb68e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "93f562e63d7f443d",
+            "1654a79c39c180de",
+            "abbae4986f7192ac",
+            "457d71f70d1564f5",
+            "b7046438a067022d",
+            "54700b54976874db",
+            "76faf09e27ad18f0",
+            "2058120714077a6a",
+            "2ef28472d42134c3",
+            "fec1792e0c01f825",
+            "860fd73504457fc7",
+            "25792f26c7f82067",
+            "02bb2aab74e7fdeb",
+            "c46fa0182fa9d023"
+        ],
+        "x": 34,
+        "y": 1339,
+        "w": 892,
+        "h": 322
+    },
+    {
+        "id": "fbb9286827eaaf8d",
+        "type": "group",
+        "z": "4f28ac5d764cb68e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "6c808c55b2ac2214",
+            "20eaea3911b1d6ef",
+            "8d718694efe2d7b6"
+        ],
+        "x": 34,
+        "y": 1679,
+        "w": 572,
+        "h": 122
+    },
+    {
+        "id": "27f024e540f77a75",
+        "type": "group",
+        "z": "4f28ac5d764cb68e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5db3bdc3323fb0c6",
+            "d031646854ea8894",
+            "a6d703b78c93be83"
+        ],
+        "x": 854,
+        "y": 1679,
+        "w": 572,
+        "h": 122
+    },
+    {
+        "id": "5e166d135545bcb3",
+        "type": "ui_tab",
+        "name": "栽培開始",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cd7e13ed523bc4aa",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED ダッシュボード",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "YYYY/MM/DD",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "17a1765b941cdfa4",
+        "type": "ui_group",
+        "name": "情報入力",
+        "tab": "5e166d135545bcb3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "69e17dea08fd1fe7",
+        "type": "ui_tab",
+        "name": "zero controler",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e17ee5dafc48b9be",
+        "type": "ui_group",
+        "name": "joy",
+        "tab": "69e17dea08fd1fe7",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4e96020eebd581c3",
+        "type": "ui_tab",
+        "name": "栽培情報",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ca219a5f9347bd3a",
+        "type": "ui_group",
+        "name": "センサ情報",
+        "tab": "4e96020eebd581c3",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a6764ca0bf4d99e3",
+        "type": "ui_group",
+        "name": "栽培情報",
+        "tab": "4e96020eebd581c3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0d1679198b26b03e",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "SmartPlanter",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "000e4edd33a489c8",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "1e448323c706303b",
+        "type": "ui_group",
+        "name": "コントローラ",
+        "tab": "4e96020eebd581c3",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "edabcb5c8e84ab0f",
+        "type": "ui_tab",
+        "name": "コントローラー",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "38430f6f96ea54ec",
+        "type": "ui_group",
+        "name": "水位調節",
+        "tab": "edabcb5c8e84ab0f",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "36830896897860a8",
+        "type": "ui_group",
+        "name": "施肥",
+        "tab": "edabcb5c8e84ab0f",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8fcdf79e2282e786",
+        "type": "ui_group",
+        "name": "LED制御",
+        "tab": "edabcb5c8e84ab0f",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "32b827efad17525b",
+        "type": "ui_spacer",
+        "z": "4f28ac5d764cb68e",
+        "name": "spacer",
+        "group": "8fcdf79e2282e786",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "4734b277530e3797",
+        "type": "ui_spacer",
+        "z": "4f28ac5d764cb68e",
+        "name": "spacer",
+        "group": "8fcdf79e2282e786",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "175817c3cbe69309",
+        "type": "udp out",
+        "z": "9e0771862cab2f9b",
+        "d": true,
+        "name": "",
+        "addr": "192.168.2.2",
+        "iface": "",
+        "port": "8002",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 740,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b480413f34a5e1f5",
+        "type": "ui_joystick",
+        "z": "9e0771862cab2f9b",
+        "name": "left stick",
+        "group": "e17ee5dafc48b9be",
+        "order": 2,
+        "width": 3,
+        "height": 3,
+        "trigger": "all",
+        "timeInterval": 0,
+        "useThemeColor": true,
+        "color": "#000000",
+        "threshold": 0.1,
+        "directions": "all",
+        "shape": "circle",
+        "centerAtRelease": true,
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "71910a3988f62619",
+                "89ce9b22414a9f65"
+            ]
+        ]
+    },
+    {
+        "id": "f1af93498dd92707",
+        "type": "ui_joystick",
+        "z": "9e0771862cab2f9b",
+        "name": "right stick",
+        "group": "e17ee5dafc48b9be",
+        "order": 3,
+        "width": 3,
+        "height": 3,
+        "trigger": "all",
+        "timeInterval": 0,
+        "useThemeColor": true,
+        "color": "#000000",
+        "threshold": 0.1,
+        "directions": "all",
+        "shape": "circle",
+        "centerAtRelease": true,
+        "x": 100,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eb9f03b2d0557a20",
+        "type": "change",
+        "z": "9e0771862cab2f9b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.angle.degree",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 80,
+        "wires": [
+            [
+                "175817c3cbe69309",
+                "b55721998f2937c3"
+            ]
+        ]
+    },
+    {
+        "id": "89ce9b22414a9f65",
+        "type": "json",
+        "z": "9e0771862cab2f9b",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "eb9f03b2d0557a20"
+            ]
+        ]
+    },
+    {
+        "id": "bb102f696ca5dbb0",
+        "type": "debug",
+        "z": "9e0771862cab2f9b",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "460cef0cdd5ba6ca",
+        "type": "function",
+        "z": "9e0771862cab2f9b",
+        "name": "function 1",
+        "func": "let num=0;\nif (msg.payload.angle.degree >= 0 && msg.payload.angle.degree <45){\n    num = 0;\n} else if (msg.payload.angle.degree >= 45 && msg.payload.angle.degree < 90) {\n    num = 1;\n} else if (msg.payload.angle.degree >= 90 && msg.payload.angle.degree < 135) {\n    num = 2;\n} else if (msg.payload.angle.degree >= 135 && msg.payload.angle.degree < 180) {\n    num = 3;\n} else if (msg.payload.angle.degree >= 180 && msg.payload.angle.degree < 225) {\n    num = 4;\n} else if (msg.payload.angle.degree >= 225 && msg.payload.angle.degree < 270) {\n    num = 5;\n} else if (msg.payload.angle.degree >= 270 && msg.payload.angle.degree < 315) {\n    num = 6;\n} else {\n    num = 7;\n}\n//msg.payload = num\n\nlet command = String(num) + \",\" + String(num) + \",\" + String(msg.payload.distance) + \",\" + String(msg.payload.distance) + \",\" + String(msg.payload.distance) \nmsg.payload = command\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "5c85231b83ec2841"
+            ]
+        ]
+    },
+    {
+        "id": "71910a3988f62619",
+        "type": "range",
+        "z": "9e0771862cab2f9b",
+        "minin": "0",
+        "maxin": "10",
+        "minout": "0",
+        "maxout": "10",
+        "action": "scale",
+        "round": true,
+        "property": "payload.distance",
+        "name": "",
+        "x": 270,
+        "y": 140,
+        "wires": [
+            [
+                "460cef0cdd5ba6ca"
+            ]
+        ]
+    },
+    {
+        "id": "ab8c4e40f52f0b8c",
+        "type": "inject",
+        "z": "9e0771862cab2f9b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1,1,100,100,100",
+        "payloadType": "str",
+        "x": 580,
+        "y": 260,
+        "wires": [
+            [
+                "b6bd6966615e8d35"
+            ]
+        ]
+    },
+    {
+        "id": "fc7c0d6d0f4cca8a",
+        "type": "inject",
+        "z": "9e0771862cab2f9b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "black",
+        "payloadType": "str",
+        "x": 550,
+        "y": 320,
+        "wires": [
+            [
+                "b6bd6966615e8d35"
+            ]
+        ]
+    },
+    {
+        "id": "5c85231b83ec2841",
+        "type": "trigger",
+        "z": "9e0771862cab2f9b",
+        "name": "",
+        "op1": "black",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "pay",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 2,
+        "x": 610,
+        "y": 140,
+        "wires": [
+            [
+                "b6bd6966615e8d35"
+            ],
+            [
+                "b6bd6966615e8d35",
+                "bb102f696ca5dbb0"
+            ]
+        ]
+    },
+    {
+        "id": "733665218c2af09c",
+        "type": "ui_template",
+        "z": "9e0771862cab2f9b",
+        "group": "e17ee5dafc48b9be",
+        "name": "streaming埋め込み",
+        "order": 1,
+        "width": "6",
+        "height": "5",
+        "format": "<div>\n    <iframe src=\"http://192.168.2.2:8080/stream/video.mjpeg\" width=\"320\" height=\"240\"></iframe>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 390,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d12d7df7881a1cbf",
+        "type": "inject",
+        "z": "9e0771862cab2f9b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 500,
+        "wires": [
+            [
+                "733665218c2af09c"
+            ]
+        ]
+    },
+    {
+        "id": "b55721998f2937c3",
+        "type": "debug",
+        "z": "9e0771862cab2f9b",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "b6bd6966615e8d35",
+        "type": "rpi-neopixels",
+        "z": "9e0771862cab2f9b",
+        "d": true,
+        "name": "",
+        "gpio": 18,
+        "pixels": "8",
+        "bgnd": "",
+        "fgnd": "",
+        "wipe": "40",
+        "mode": "pcent",
+        "rgb": "rgb",
+        "brightness": "100",
+        "gamma": true,
+        "x": 850,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "fbbd8052b303477f",
+        "type": "ui_template",
+        "z": "4f28ac5d764cb68e",
+        "group": "a6764ca0bf4d99e3",
+        "name": "dashBorad内にリンク表示するテスト",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<p>test</p>\n\n<div ng-bind-html=\"msg.payload.varietiesID\"></div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 850,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "93f562e63d7f443d",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "停止",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 1420,
+        "wires": [
+            [
+                "2ef28472d42134c3",
+                "2058120714077a6a"
+            ]
+        ]
+    },
+    {
+        "id": "1654a79c39c180de",
+        "type": "rpi-gpio out",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "GPIO 27",
+        "pin": "17",
+        "set": false,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 500,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "abbae4986f7192ac",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "逆転",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 1620,
+        "wires": [
+            [
+                "860fd73504457fc7",
+                "fec1792e0c01f825"
+            ]
+        ]
+    },
+    {
+        "id": "8739e82a717e32a5",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0,51,255,255,255",
+        "payloadType": "str",
+        "x": 160,
+        "y": 1860,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "5a1e9d1edb0d34e8",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "name": "black",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0,54,0,0,0",
+        "payloadType": "str",
+        "x": 130,
+        "y": 1900,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "6d121e169b90bfcb",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0,51,255,0,0",
+        "payloadType": "str",
+        "x": 150,
+        "y": 1820,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "82f0dab349c673b8",
+        "type": "file in",
+        "z": "4f28ac5d764cb68e",
+        "g": "6c5b9b56f82ec3ba",
+        "name": " 初期データ読み込み",
+        "filename": "/home/pi/SmartPlanter/init.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 400,
+        "y": 120,
+        "wires": [
+            [
+                "4c5012cf23179c63"
+            ]
+        ]
+    },
+    {
+        "id": "079cb1c15cb324b2",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "6c5b9b56f82ec3ba",
+        "name": "初期値読み込みフロー",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 120,
+        "wires": [
+            [
+                "82f0dab349c673b8"
+            ]
+        ]
+    },
+    {
+        "id": "4c5012cf23179c63",
+        "type": "csv",
+        "z": "4f28ac5d764cb68e",
+        "g": "6c5b9b56f82ec3ba",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "startTime,projectID,projectName,varietiesID,grower,temperature,temperatureI,humidity,illuminance,illuminanceI,ledIlluminance,ledIlluminanceI,totalIlluminance,totalIlluminanceI,fertilization,fertilizationI,waterLebel",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 570,
+        "y": 120,
+        "wires": [
+            [
+                "99eaa6202dc9d6d4"
+            ]
+        ]
+    },
+    {
+        "id": "8edde1f549f160ae",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "g": "6c5b9b56f82ec3ba",
+        "name": "継続データロード",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6266fbc2334b4601",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "projectID初期化",
+        "func": "global.set(\"projectID\", 0)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eedff4e1d105d7fc",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "projectID初期化",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "6266fbc2334b4601"
+            ]
+        ]
+    },
+    {
+        "id": "5af3e468f5ee21ec",
+        "type": "comment",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "info": "table :test\n\ncollmun :ID,elapsedDateTime(type:time)\n\n\ntable :log\nadd collmun\nelapsedDateTime(type:time)",
+        "x": 100,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "fcfd5003a39f3633",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "",
+        "group": "17a1765b941cdfa4",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "栽培開始",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"startDate\":\"\",\"startTime\":\"\",\"projectID\":\"\",\"projectName\":\"\",\"varieties\":\"\",\"grower\":\"\"}",
+        "payloadType": "json",
+        "topic": "initial data",
+        "topicType": "str",
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "522aaaf7f68685ef"
+            ]
+        ]
+    },
+    {
+        "id": "ddca9fd45cf1c9b0",
+        "type": "ui_dropdown",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "",
+        "label": "栽培品種",
+        "tooltip": "",
+        "place": "品種を選んでください。",
+        "group": "17a1765b941cdfa4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "レタス",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "バジル",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "クレソン",
+                "value": 3,
+                "type": "num"
+            },
+            {
+                "label": "水菜",
+                "value": 4,
+                "type": "num"
+            },
+            {
+                "label": "小松菜",
+                "value": 5,
+                "type": "num"
+            },
+            {
+                "label": "大葉",
+                "value": 6,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 140,
+        "y": 320,
+        "wires": [
+            [
+                "7fc83fe87dc2ac6d"
+            ]
+        ]
+    },
+    {
+        "id": "522aaaf7f68685ef",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "initデータglobal化",
+        "func": "let now  = new Date();\n//now = new Date(now.getFullYear(),now.getMonth,now.getDay)\nnow.setHours(0);\nnow.setMinutes(0);\nnow.setSeconds(0);\nnow.setMilliseconds(0);\n\n//msg.payload.startDate           = now;\nmsg.payload.startTime           = now.getTime();\nmsg.payload.projectID           = global.get(\"projectID\") + 1;\nmsg.payload.projectName         = global.get(\"projectNameTemp\");\nmsg.payload.varietiesID         = global.get(\"varietiesIDTemp\");\nmsg.payload.grower              = global.get(\"growerTemp\");\n\nmsg.payload.temperature         = 0;\nmsg.payload.temperatureI        = 0;\nmsg.payload.humidity            = 0;\nmsg.payload.illuminance         = 0;\nmsg.payload.illuminanceI        = 0;\nmsg.payload.ledIlluminance      = 0;\nmsg.payload.ledIlluminanceI     = 0;\nmsg.payload.totalIlluminance    = 0;\nmsg.payload.totalIlluminanceI   = 0;\nmsg.payload.fertilization       = 0;\nmsg.payload.fertilizationI      = 0;\nmsg.payload.waterLebel          = 0;\n\n//global.set(\"startDate\",         msg.payload.startDate);\nglobal.set(\"startTime\",         msg.payload.startTime);\nglobal.set(\"projectID\",         msg.payload.projectID);\nglobal.set(\"projectName\",       msg.payload.projectName);\nglobal.set(\"varietiesID\",       msg.payload.varietiesID);\nglobal.set(\"grower\",            msg.payload.grower);\n\nglobal.set(\"temperature\",       msg.payload.temperature);\nglobal.set(\"temperatureI\",      msg.payload.temperatureI);\nglobal.set(\"humidity\",          msg.payload.humidity);\nglobal.set(\"illuminance\",       msg.payload.illuminance);\nglobal.set(\"illuminanceI\",      msg.payload.illuminanceI);\nglobal.set(\"ledIlluminance\",    msg.payload.ledIlluminance);\nglobal.set(\"ledIlluminanceI\",   msg.payload.ledIlluminanceI);\nglobal.set(\"totalIlluminance\",  msg.payload.totalIlluminance);\nglobal.set(\"totalIlluminanceI\", msg.payload.totalIlluminanceI);\nglobal.set(\"fertilization\",     msg.payload.fertilization);\nglobal.set(\"fertilizationI\",    msg.payload.fertilizationI);\nglobal.set(\"waterLebel\",        msg.payload.waterLebel);\n\n//平均値取得用配列の初期化\nlet temperatureList         = [];\nlet humidityList            = [];\nlet illuminanceList         = [];\nlet ledIlluminanceList      = [];\nlet totalIlluminanceList    = [];\nlet fertilizationList       = [];\nglobal.set(\"temperatureList\",       temperatureList);\nglobal.set(\"humidityList\",          humidityList);\nglobal.set(\"illuminanceList\",       illuminanceList);\nglobal.set(\"ledIlluminanceList\",    ledIlluminanceList);\nglobal.set(\"totalIlluminanceList\",  totalIlluminanceList);\nglobal.set(\"fertilizationList\",     fertilizationList);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 440,
+        "wires": [
+            [
+                "71654dae05ce0d94",
+                "6ebc04efe603d91e"
+            ]
+        ]
+    },
+    {
+        "id": "3508ea594a26e34c",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "栽培開始テスト",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"startDate\":\"\",\"startTime\":\"\",\"projectID\":\"\",\"projectName\":\"\",\"varieties\":\"\",\"grower\":\"\"}",
+        "payloadType": "json",
+        "x": 160,
+        "y": 400,
+        "wires": [
+            [
+                "522aaaf7f68685ef",
+                "63c285acdae2c9c2"
+            ]
+        ]
+    },
+    {
+        "id": "187a46305c0c15ab",
+        "type": "ui_text_input",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "",
+        "label": "プロジェクト名",
+        "tooltip": "",
+        "group": "17a1765b941cdfa4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 160,
+        "y": 280,
+        "wires": [
+            [
+                "0b89eb52c4dace4f"
+            ]
+        ]
+    },
+    {
+        "id": "620452b9e4b09306",
+        "type": "ui_text_input",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "",
+        "label": "栽培者",
+        "tooltip": "",
+        "group": "17a1765b941cdfa4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 130,
+        "y": 360,
+        "wires": [
+            [
+                "8688e6743076cec3"
+            ]
+        ]
+    },
+    {
+        "id": "71654dae05ce0d94",
+        "type": "csv",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "",
+        "sep": ",",
+        "hdrin": false,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "startTime,projectID,projectName,varietiesID,grower,temperature,temperatureI,humidity,illuminance,illuminanceI,ledIlluminance,ledIlluminanceI,totalIlluminance,totalIlluminanceI,fertilization,fertilizationI,waterLebel",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 570,
+        "y": 440,
+        "wires": [
+            [
+                "08d0843460b5011e"
+            ]
+        ]
+    },
+    {
+        "id": "6ebc04efe603d91e",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "プロジェクト開始",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "08d0843460b5011e",
+        "type": "file",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "init.csv保存",
+        "filename": "/home/pi/SmartPlanter/init.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 730,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b89eb52c4dace4f",
+        "type": "change",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "global.projectNameTemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "projectNameTemp",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8688e6743076cec3",
+        "type": "change",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "global.growerTemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "growerTemp",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fc83fe87dc2ac6d",
+        "type": "change",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "name": "global.varietiesIDTemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "varietiesIDTemp",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99eaa6202dc9d6d4",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "6c5b9b56f82ec3ba",
+        "name": "initデータglobal化",
+        "func": "//global.set(\"startDate\", Number(msg.payload.startDate));\nglobal.set(\"startTime\", Number(msg.payload.startTime));\nglobal.set(\"projectID\", msg.payload.projectID)\nglobal.set(\"projectName\", msg.payload.projectName);\nglobal.set(\"varietiesID\", msg.payload.varietiesID);\nglobal.set(\"grower\", msg.payload.grower);\n\nglobal.set(\"temperature\", msg.payload.temperature);\nglobal.set(\"temperatureI\", msg.payload.temperatureI);\nglobal.set(\"illuminance\", msg.payload.illuminance);\nglobal.set(\"illuminanceI\", msg.payload.illuminanceI);\nglobal.set(\"ledIlluminance\", msg.payload.ledIlluminance);\nglobal.set(\"ledIlluminanceI\", msg.payload.ledIlluminanceI);\nglobal.set(\"totalIlluminance\", msg.payload.totalIlluminance);\nglobal.set(\"totalIlluminanceI\", msg.payload.totalIlluminanceI);\nglobal.set(\"fertilization\", msg.payload.fertilization);\nglobal.set(\"fertilizationI\", msg.payload.fertilizationI);\nglobal.set(\"waterLebel\", msg.payload.waterLebel);\n\n//平均値取得用配列の初期化\nlet temperatureList = [];\nlet humidityList = [];\nlet illuminanceList = [];\nlet ledIlluminanceList = [];\nlet totalIlluminanceList = [];\nlet fertilizationList = [];\nglobal.set(\"temperatureList\", temperatureList);\nglobal.set(\"humidityList\", humidityList);\nglobal.set(\"illuminanceList\", illuminanceList);\nglobal.set(\"ledIlluminanceList\", ledIlluminanceList);\nglobal.set(\"totalIlluminanceList\", totalIlluminanceList);\nglobal.set(\"fertilizationList\", fertilizationList);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 120,
+        "wires": [
+            [
+                "8edde1f549f160ae"
+            ]
+        ]
+    },
+    {
+        "id": "5197691c32db8b56",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "一時間ごと",
+        "props": [],
+        "repeat": "",
+        "crontab": "0 0-23 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 540,
+        "wires": [
+            [
+                "155fceeb7c09c253",
+                "184acd1d70d2258d"
+            ]
+        ]
+    },
+    {
+        "id": "c335d7253ae282ed",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "積算処理及びSQL生成",
+        "func": "//プロジェクトデータ\n//let projectID       = global.get(\"projectID\");\nlet test            = global.get(\"projectID\")\nlet projectName     = global.get(\"projectName\");\nlet varietiesID     = global.get(\"varietiesID\");\nlet grower          = global.get(\"grower\");\n\n//時間データ処理\nlet startDate       = global.get(\"startDate\")\nlet startTime       = global.get(\"startTime\");\nlet nowDate         = new Date;\nlet nowTime         = nowDate.getTime();\n\nlet elapsedTime     = nowTime - startTime;\nlet elapsedDays     = Math.trunc(elapsedTime / (1000 * 60 * 60 * 24));\nlet elapsedHours    = Math.trunc((elapsedTime - (elapsedDays * 1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\nlet elapsedMins     = Math.trunc((elapsedTime - (elapsedDays * 1000 * 60 * 60 * 24) - (elapsedHours * 1000 * 60 * 60)) / (1000 * 60));\nlet elapsedSecs     = Math.trunc((elapsedTime - (elapsedDays * 1000 * 60 * 60 * 24) - (elapsedHours * 1000 * 60 * 60) - (elapsedMins * 1000 * 60)) / 1000);\nlet elapsedTimeStr  = String(elapsedDays * 24 + elapsedHours) + \":\" + String(elapsedMins) + \":\" + String(elapsedSecs)\n\n//センサデータ処理\nlet temperature         = global.get(\"temperature\");\nlet temperatureI        = global.get(\"temperatureI\") + temperature;\nlet humidity            = global.get(\"humidity\");\nlet illuminance         = global.get(\"illuminance\");\nlet illuminanceI        = global.get(\"illuminanceI\") + illuminance;\nlet ledIlluminance      = global.get(\"ledIlluminance\");\nlet ledIlluminanceI     = global.get(\"ledIlluminanceI\") + ledIlluminance;\nlet totalIlluminance    = global.get(\"totalIlluminance\");\nlet totalIlluminanceI   = global.get(\"totalIlluminanceI\") + totalIlluminance;\nlet fertilization       = global.get(\"fertilization\")\nlet fertilizationI      = global.get(\"fertilizationI\") + fertilization;\nlet waterLebel          = global.get(\"waterLebel\");\nwaterLebel = msg.payload;\n\nglobal.set(\"temperature\", temperature);\nglobal.set(\"temperatureI\", temperatureI);\nglobal.set(\"humidity\", humidity);\nglobal.set(\"illuminance\", illuminance);\nglobal.set(\"illuminanceI\", illuminanceI);\nglobal.set(\"ledIlluminance\", ledIlluminance);\nglobal.set(\"ledIlluminanceI\", ledIlluminanceI);\nglobal.set(\"totalIlluminance\", totalIlluminance);\nglobal.set(\"totalIlluminanceI\", totalIlluminanceI);\nglobal.set(\"fertilization\", fertilization);\nglobal.set(\"fertilizationI\", fertilizationI);\nglobal.set(\"waterLebel\", waterLebel);\n\nmsg.payload = {\n    \"startTime\"         : startTime,\n//    \"projcetID\"         : projectID,\n    \"projectID\"         : test,\n    \"projectName\"       : projectName,\n    \"varietiesID\"       : varietiesID,\n    \"grower\"            : grower,\n    \"elapsedTime\"       : elapsedTimeStr,\n    \"elapsedDays\"       : elapsedDays,\n    \"elapsedHours\"      : elapsedHours,\n    \"temperature\"       : temperature,\n    \"temperatureI\"      : temperatureI,\n    \"humidity\"          : humidity,\n    \"illuminance\"       : illuminance,\n    \"illuminanceI\"      : illuminanceI,\n    \"ledIlluminance\"    : ledIlluminance,\n    \"ledIlluminanceI\"   : ledIlluminanceI,\n    \"totalIlluminance\"  : totalIlluminance,\n    \"totalIlluminanceI\" : totalIlluminanceI,\n    \"fertilization\"     : fertilization,\n    \"fertilizationI\"    : fertilizationI,\n    \"waterLebel\"        : waterLebel\n}\n\nmsg.topic = \"INSERT INTO log (projectID,projectName,varietiesID,grower,elapsedTime,elapsedDays,elapsedHours,temperature,temperatureI,humidity,illuminance,illuminanceI,ledIlluminance,ledIlluminanceI,totalIlluminance,totalIlluminanceI,fertilization,fertilizationI,waterLebel) VALUES(\"\n    + test + \",'\" \n    + projectName + \"',\"\n    + varietiesID + \",'\"\n    + grower + \"','\"\n    + elapsedTimeStr + \"',\"\n    + elapsedDays + \",\"\n    + elapsedHours + \",\"\n    + temperature + \",\"\n    + temperatureI + \",\"\n    + humidity + \",\"\n    + illuminance + \",\"\n    + illuminanceI + \",\"\n    + ledIlluminance + \",\"\n    + ledIlluminanceI + \",\"\n    + totalIlluminance + \",\"\n    + totalIlluminanceI + \",\"\n    + fertilization + \",\"\n    + fertilizationI + \",\"\n    + waterLebel + \");\";\n\n//平均値取得用配列の初期化\nlet temperatureList = [];\nlet humidityList = [];\nlet illuminanceList = [];\nlet ledIlluminanceList = [];\nlet totalIlluminanceList = [];\nlet fertilizationList = [];\nglobal.set(\"temperatureList\", temperatureList);\nglobal.set(\"humidityList\", humidityList);\nglobal.set(\"illuminanceList\", illuminanceList);\nglobal.set(\"ledIlluminanceList\", ledIlluminanceList);\nglobal.set(\"totalIlluminanceList\", totalIlluminanceList);\nglobal.set(\"fertilizationList\", fertilizationList);\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 660,
+        "wires": [
+            [
+                "dce88a9178b8bac9",
+                "29bed43edd32ba04"
+            ]
+        ]
+    },
+    {
+        "id": "dce88a9178b8bac9",
+        "type": "mysql",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "mydb": "0d1679198b26b03e",
+        "name": "",
+        "x": 770,
+        "y": 660,
+        "wires": [
+            [
+                "adfec6d98d710f4a"
+            ]
+        ]
+    },
+    {
+        "id": "adfec6d98d710f4a",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "debug 23",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "0dd9d015ee938aec",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "0bfdb98f68a332bf",
+        "name": "10秒ごと",
+        "props": [],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 1220,
+        "wires": [
+            [
+                "6b29c23ecf7f0bad",
+                "09893587e63e1611"
+            ]
+        ]
+    },
+    {
+        "id": "5aa2be974edb966a",
+        "type": "ads1x15_i2c",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "property": "payload",
+        "name": "",
+        "i2c_device_number": 1,
+        "chip": "0x01",
+        "i2c_address": "0x48",
+        "inputsForChannel": "singleEnded",
+        "singleEndedChannel0": true,
+        "singleEndedChannel1": true,
+        "singleEndedChannel2": true,
+        "singleEndedChannel3": true,
+        "differentialChannel0_1": true,
+        "differentialChannel0_3": false,
+        "differentialChannel1_3": false,
+        "differentialChannel2_3": true,
+        "samplesPerSecond0": "920",
+        "samplesPerSecond1": "128",
+        "progGainAmp": "4096",
+        "x": 470,
+        "y": 600,
+        "wires": [
+            [
+                "d914fb020ab6e553",
+                "05d5b405ba886c97"
+            ]
+        ]
+    },
+    {
+        "id": "ee5420b6e7e69201",
+        "type": "change",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "/dev/i2c-1",
+                "fromt": "str",
+                "to": "i2c",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 600,
+        "wires": [
+            [
+                "e4a1d2261c01dd17"
+            ]
+        ]
+    },
+    {
+        "id": "e4a1d2261c01dd17",
+        "type": "json",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 950,
+        "y": 600,
+        "wires": [
+            [
+                "dd3fbc89490367c5"
+            ]
+        ]
+    },
+    {
+        "id": "d914fb020ab6e553",
+        "type": "json",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 610,
+        "y": 600,
+        "wires": [
+            [
+                "ee5420b6e7e69201"
+            ]
+        ]
+    },
+    {
+        "id": "09893587e63e1611",
+        "type": "SHT3x",
+        "z": "4f28ac5d764cb68e",
+        "g": "0bfdb98f68a332bf",
+        "name": "",
+        "shtaddress": "0x44",
+        "x": 310,
+        "y": 1280,
+        "wires": [
+            [
+                "b01591372627863e"
+            ]
+        ]
+    },
+    {
+        "id": "6b29c23ecf7f0bad",
+        "type": "Bh1750",
+        "z": "4f28ac5d764cb68e",
+        "g": "0bfdb98f68a332bf",
+        "name": "",
+        "bus": "1",
+        "address": "0x23",
+        "topic": "bh1750",
+        "readMode": "",
+        "x": 320,
+        "y": 1220,
+        "wires": [
+            [
+                "1e6a9d808c7966b3"
+            ]
+        ]
+    },
+    {
+        "id": "1e6a9d808c7966b3",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "0bfdb98f68a332bf",
+        "name": "照度データ更新",
+        "func": "msg.topic = \"illuminance\"\n\nlet illuminanceList = global.get(\"illuminanceList\");\n\nilluminanceList.push(msg.payload);\n\nlet sumData = 0;\nfor (let i = 0; i < illuminanceList.length; i++){\n    sumData = sumData + illuminanceList[i];\n};\n\nlet illuminance = sumData / illuminanceList.length;  \n\nglobal.set(\"illuminance\",       illuminance);\nglobal.set(\"illuminanceList\",   illuminanceList);\n\nmsg.payload =   {\n                    \"illuminance\"       : illuminance,\n                    \"illuminanceList\"   : illuminanceList\n                }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 1220,
+        "wires": [
+            [
+                "b5f8e6fddbc4714d"
+            ]
+        ]
+    },
+    {
+        "id": "b5f8e6fddbc4714d",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "g": "0bfdb98f68a332bf",
+        "name": "10秒ごと",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "b01591372627863e",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "0bfdb98f68a332bf",
+        "name": "温湿度データ更新",
+        "func": "msg.topic = \"SHT30\"\n\nlet temperatureList = global.get(\"temperatureList\");\nlet humidityList    = global.get(\"humidityList\");\n\ntemperatureList.push(msg.payload.temperature);\nhumidityList.push(msg.payload.humidity);\n\nlet sumData = 0;\nfor (let i = 0; i < temperatureList.length; i++) {\n    sumData = sumData + temperatureList[i];\n};\nlet temperature = sumData / temperatureList.length;\n\nsumData = 0;\nfor (let i = 0; i < humidityList.length; i++){\n    sumData = sumData + humidityList[i];\n}\nlet humidity = sumData / humidityList.length;\n\nglobal.set(\"temperature\",       temperature);\nglobal.set(\"temperatureList\",   temperatureList);\nglobal.set(\"humidity\",          humidity);\nglobal.set(\"humidityList\",      humidityList);\n\nmsg.payload =   {\n                    \"temperature\"       : temperature,\n                    \"humidity\"          : humidity,\n                    \"temperatureList\"   : temperatureList,\n                    \"humidityList\"      : humidityList\n                }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 1280,
+        "wires": [
+            [
+                "b5f8e6fddbc4714d"
+            ]
+        ]
+    },
+    {
+        "id": "dd3fbc89490367c5",
+        "type": "change",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "水位データ更新",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.i2c.ads1115.0x48.singleEnded.channel_0.Volts",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "waterLebel",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "waterLebel",
+                "pt": "global",
+                "to": "payload.i2c.ads1115.0x48.singleEnded.channel_0.Volts",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 660,
+        "wires": [
+            [
+                "bdc13aae97945d0d",
+                "c335d7253ae282ed"
+            ]
+        ]
+    },
+    {
+        "id": "b417855ddd7adb1d",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "毎時処理",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "bdc13aae97945d0d",
+        "type": "ui_chart",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "",
+        "group": "ca219a5f9347bd3a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "簡易レベルセンサ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 550,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29bed43edd32ba04",
+        "type": "csv",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "",
+        "sep": ",",
+        "hdrin": false,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "startTime,projectID,projectName,varietiesID,grower,temperature,temperatureI,humidity,illuminance,illuminanceI,ledIlluminance,ledIlluminanceI,totalIlluminance,totalIlluminanceI,fertilization,fertilizationI,waterLebel",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 750,
+        "y": 720,
+        "wires": [
+            [
+                "df2c1706a28b2f22",
+                "b417855ddd7adb1d"
+            ]
+        ]
+    },
+    {
+        "id": "df2c1706a28b2f22",
+        "type": "file",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "init.csv保存",
+        "filename": "/home/pi/SmartPlanter/init.csv",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 930,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a4f66ea8b76d277",
+        "type": "exec",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "command": "python3 /home/pi/SmartPlanter/getImage.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "get latest.jpg",
+        "x": 690,
+        "y": 900,
+        "wires": [
+            [
+                "828ba37624f1ce47"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "14cfd09e46c7a249",
+        "type": "exec",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "command": "python3 /home/pi/SmartPlanter/makeMovie.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "makeMovie.py",
+        "x": 1180,
+        "y": 900,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "63c285acdae2c9c2",
+        "type": "exec",
+        "z": "4f28ac5d764cb68e",
+        "g": "e4cbabdec1ea215b",
+        "command": "python3 /home/pi/SmartPlanter/deleteJpg.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "deleteJpg.py",
+        "x": 590,
+        "y": 360,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5f3996935fcb689a",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "30分ごと",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "*/30 0-23 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 900,
+        "wires": [
+            [
+                "a5acd8bda16cc528",
+                "aa81b24a5375b0b2"
+            ]
+        ]
+    },
+    {
+        "id": "457d71f70d1564f5",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "正転",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 1520,
+        "wires": [
+            [
+                "54700b54976874db",
+                "76faf09e27ad18f0"
+            ]
+        ]
+    },
+    {
+        "id": "b7046438a067022d",
+        "type": "rpi-gpio out",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "GPIO 17",
+        "pin": "27",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 500,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "54700b54976874db",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "0",
+        "func": "msg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1480,
+        "wires": [
+            [
+                "b7046438a067022d"
+            ]
+        ]
+    },
+    {
+        "id": "76faf09e27ad18f0",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "1",
+        "func": "msg.payload = 1;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1520,
+        "wires": [
+            [
+                "1654a79c39c180de"
+            ]
+        ]
+    },
+    {
+        "id": "2058120714077a6a",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "0",
+        "func": "msg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1380,
+        "wires": [
+            [
+                "b7046438a067022d"
+            ]
+        ]
+    },
+    {
+        "id": "2ef28472d42134c3",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "0",
+        "func": "msg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1420,
+        "wires": [
+            [
+                "1654a79c39c180de"
+            ]
+        ]
+    },
+    {
+        "id": "fec1792e0c01f825",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "0",
+        "func": "msg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1620,
+        "wires": [
+            [
+                "1654a79c39c180de"
+            ]
+        ]
+    },
+    {
+        "id": "860fd73504457fc7",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "1",
+        "func": "msg.payload = 1;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1580,
+        "wires": [
+            [
+                "b7046438a067022d"
+            ]
+        ]
+    },
+    {
+        "id": "6c808c55b2ac2214",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "fbb9286827eaaf8d",
+        "name": "施肥ポンプ　ON",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 160,
+        "y": 1720,
+        "wires": [
+            [
+                "20eaea3911b1d6ef"
+            ]
+        ]
+    },
+    {
+        "id": "20eaea3911b1d6ef",
+        "type": "rpi-gpio out",
+        "z": "4f28ac5d764cb68e",
+        "g": "fbb9286827eaaf8d",
+        "name": "GPIO 22 motor",
+        "pin": "22",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 500,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "8d718694efe2d7b6",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "fbb9286827eaaf8d",
+        "name": "施肥ポンプ　OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 170,
+        "y": 1760,
+        "wires": [
+            [
+                "20eaea3911b1d6ef"
+            ]
+        ]
+    },
+    {
+        "id": "5db3bdc3323fb0c6",
+        "type": "rpi-gpio out",
+        "z": "4f28ac5d764cb68e",
+        "g": "27f024e540f77a75",
+        "name": "GPIO 23 motor",
+        "pin": "23",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 1320,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "d031646854ea8894",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "27f024e540f77a75",
+        "name": "レベルセンサ　ON",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 990,
+        "y": 1720,
+        "wires": [
+            [
+                "5db3bdc3323fb0c6"
+            ]
+        ]
+    },
+    {
+        "id": "a6d703b78c93be83",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "27f024e540f77a75",
+        "name": "レベルセンサ　OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 1000,
+        "y": 1760,
+        "wires": [
+            [
+                "5db3bdc3323fb0c6"
+            ]
+        ]
+    },
+    {
+        "id": "290bcdece962525e",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0,51,100,100,100",
+        "payloadType": "str",
+        "x": 160,
+        "y": 1940,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "155fceeb7c09c253",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "レベルセンサON",
+        "func": "msg.payload = 1;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "92a6cda1f2781d35"
+            ]
+        ]
+    },
+    {
+        "id": "92a6cda1f2781d35",
+        "type": "rpi-gpio out",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "GPIO 23 motor",
+        "pin": "23",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 560,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "05d5b405ba886c97",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "レベルセンサOFF",
+        "func": "msg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 540,
+        "wires": [
+            [
+                "7d9c4570a25b10b5"
+            ]
+        ]
+    },
+    {
+        "id": "7d9c4570a25b10b5",
+        "type": "rpi-gpio out",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "GPIO 23 motor",
+        "pin": "23",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 960,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "184acd1d70d2258d",
+        "type": "delay",
+        "z": "4f28ac5d764cb68e",
+        "g": "025677bef24b4269",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 600,
+        "wires": [
+            [
+                "5aa2be974edb966a"
+            ]
+        ]
+    },
+    {
+        "id": "f93a436e7f2c596e",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0,51,255,255,150",
+        "payloadType": "str",
+        "x": 160,
+        "y": 1980,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "a5acd8bda16cc528",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "照明ON",
+        "func": "msg.payload = \"0,51,255,255,150\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 900,
+        "wires": [
+            [
+                "6fe6b97f4ce0404e",
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "ae951ccf8e293cb2",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "照明OFF",
+        "func": "msg.payload = \"0,51,0,0,0\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 900,
+        "wires": [
+            [
+                "14cfd09e46c7a249",
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "6fe6b97f4ce0404e",
+        "type": "delay",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 900,
+        "wires": [
+            [
+                "5a4f66ea8b76d277"
+            ]
+        ]
+    },
+    {
+        "id": "f34e2baabf3291d6",
+        "type": "rpi-neopixels",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "",
+        "gpio": 18,
+        "pixels": "52",
+        "bgnd": "",
+        "fgnd": "",
+        "wipe": "1",
+        "mode": "pcent",
+        "rgb": "rgb",
+        "brightness": "100",
+        "gamma": true,
+        "x": 1190,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "25792f26c7f82067",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "function 2",
+        "func": "let test = global.get(\"projectID\");\nmsg.payload = {\"projectID\" : test };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1380,
+        "wires": [
+            [
+                "c46fa0182fa9d023"
+            ]
+        ]
+    },
+    {
+        "id": "02bb2aab74e7fdeb",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 480,
+        "y": 1380,
+        "wires": [
+            [
+                "25792f26c7f82067"
+            ]
+        ]
+    },
+    {
+        "id": "c46fa0182fa9d023",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "g": "b4bc3527b98766cf",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "edf9ebeceb455ee0",
+        "type": "exec",
+        "z": "4f28ac5d764cb68e",
+        "g": "3c1c018753a786b7",
+        "command": "python3 /home/pi/SmartPlanter/getImageTest.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "get latest.jpg",
+        "x": 630,
+        "y": 2160,
+        "wires": [
+            [
+                "94404e374d6c7974"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "0ea957f3790977a6",
+        "type": "exec",
+        "z": "4f28ac5d764cb68e",
+        "d": true,
+        "g": "3c1c018753a786b7",
+        "command": "python3 /home/pi/SmartPlanter/makeMovie.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "makeMovie.py",
+        "x": 980,
+        "y": 2160,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9b06f0bcb03b7990",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "3c1c018753a786b7",
+        "name": "15分ごと",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 160,
+        "y": 2160,
+        "wires": [
+            [
+                "c4dfb5d71d86c08b"
+            ]
+        ]
+    },
+    {
+        "id": "c4dfb5d71d86c08b",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "3c1c018753a786b7",
+        "name": "照明ON",
+        "func": "msg.payload = \"0,51,255,255,150\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 2160,
+        "wires": [
+            [
+                "0f19a75cec598e8b",
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "94404e374d6c7974",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "g": "3c1c018753a786b7",
+        "name": "照明OFF",
+        "func": "msg.payload = \"0,51,0,0,0\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 2160,
+        "wires": [
+            [
+                "0ea957f3790977a6",
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "0f19a75cec598e8b",
+        "type": "delay",
+        "z": "4f28ac5d764cb68e",
+        "g": "3c1c018753a786b7",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 2160,
+        "wires": [
+            [
+                "edf9ebeceb455ee0"
+            ]
+        ]
+    },
+    {
+        "id": "828ba37624f1ce47",
+        "type": "delay",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 860,
+        "y": 900,
+        "wires": [
+            [
+                "ae951ccf8e293cb2"
+            ]
+        ]
+    },
+    {
+        "id": "8018cf2161529e66",
+        "type": "exec",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "command": "v4l2-ctl -d /dev/video0 -c auto_exposure_bias=12",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "exposure bias12",
+        "x": 540,
+        "y": 960,
+        "wires": [
+            [
+                "9f1d48e66c831518"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "bf27958e40936153",
+        "type": "exec",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "command": "v4l2-ctl -d /dev/video0 -c auto_exposure_bias=0",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "exposure bias0",
+        "x": 540,
+        "y": 1080,
+        "wires": [
+            [
+                "c4c375703a123f7e"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f87b6f13e3a011b3",
+        "type": "exec",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "command": "v4l2-ctl -d /dev/video0 -c auto_exposure_bias=6",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "exposure bias6",
+        "x": 540,
+        "y": 1020,
+        "wires": [
+            [
+                "c4ebf38b5f1accab"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "aa81b24a5375b0b2",
+        "type": "switch",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "0<10000<20000<",
+        "property": "illuminance",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "10000",
+                "vt": "num"
+            },
+            {
+                "t": "lt",
+                "v": "20000",
+                "vt": "num"
+            },
+            {
+                "t": "gte",
+                "v": "20000",
+                "vt": "num"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 310,
+        "y": 1020,
+        "wires": [
+            [
+                "8018cf2161529e66",
+                "9f1d48e66c831518"
+            ],
+            [
+                "f87b6f13e3a011b3"
+            ],
+            [
+                "bf27958e40936153",
+                "c4c375703a123f7e"
+            ]
+        ]
+    },
+    {
+        "id": "39951a71305b6816",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "22000",
+        "payloadType": "num",
+        "x": 130,
+        "y": 980,
+        "wires": [
+            [
+                "aa81b24a5375b0b2"
+            ]
+        ]
+    },
+    {
+        "id": "9f1d48e66c831518",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "c4ebf38b5f1accab",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "c4c375703a123f7e",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "g": "95955d6af66bd529",
+        "name": "0",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "5404ea4103211068",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 2280,
+        "wires": [
+            [
+                "7f9faebf98b689dd"
+            ]
+        ]
+    },
+    {
+        "id": "7f9faebf98b689dd",
+        "type": "exec",
+        "z": "4f28ac5d764cb68e",
+        "command": "node /home/pi/SmartPlanter/sensor.js",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 490,
+        "y": 2280,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "4bf8af88947d2429",
+        "type": "mqtt in",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "topic": "from CHIRIMEN",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "000e4edd33a489c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 2380,
+        "wires": [
+            [
+                "182c1daecbed9efe"
+            ]
+        ]
+    },
+    {
+        "id": "b2468b7b2a3e34e1",
+        "type": "aedes broker",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "dburl": "",
+        "usetls": false,
+        "x": 150,
+        "y": 2500,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "182c1daecbed9efe",
+        "type": "debug",
+        "z": "4f28ac5d764cb68e",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "66c30086efd5542f",
+        "type": "function",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "func": "msg.payload = \"0,51,255,0,0\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1460,
+        "y": 1200,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "bfd95b0b4e7a6fc9",
+        "type": "inject",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1260,
+        "y": 1200,
+        "wires": [
+            [
+                "66c30086efd5542f"
+            ]
+        ]
+    },
+    {
+        "id": "8bd2c9cae54610f6",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "38430f6f96ea54ec",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "注水",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1290,
+        "y": 1280,
+        "wires": [
+            [
+                "54700b54976874db",
+                "76faf09e27ad18f0"
+            ]
+        ]
+    },
+    {
+        "id": "704e0fa4e0c75850",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "38430f6f96ea54ec",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "排水",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1290,
+        "y": 1380,
+        "wires": [
+            [
+                "860fd73504457fc7",
+                "fec1792e0c01f825"
+            ]
+        ]
+    },
+    {
+        "id": "d122d6b62f94641e",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "38430f6f96ea54ec",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "停止",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1290,
+        "y": 1480,
+        "wires": [
+            [
+                "2058120714077a6a",
+                "2ef28472d42134c3"
+            ]
+        ]
+    },
+    {
+        "id": "d9c14f6f61e9e441",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "36830896897860a8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "施肥ポンプON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1620,
+        "y": 1400,
+        "wires": [
+            [
+                "20eaea3911b1d6ef"
+            ]
+        ]
+    },
+    {
+        "id": "f1dc25d9a9b61660",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "36830896897860a8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "施肥ポンプOFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1620,
+        "y": 1480,
+        "wires": [
+            [
+                "20eaea3911b1d6ef"
+            ]
+        ]
+    },
+    {
+        "id": "623b7e4fbcbc900d",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "8fcdf79e2282e786",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "赤",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0,51,255,0,0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1610,
+        "y": 1640,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "4d7a2939cd1fee8d",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "8fcdf79e2282e786",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "青",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0,51,0,0,255",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1610,
+        "y": 1680,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "259f0396a8bdead8",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "8fcdf79e2282e786",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "緑",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0,51,0,255,0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1610,
+        "y": 1720,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "e321c9c9d1970612",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "8fcdf79e2282e786",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "ムーディー",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0,51,200,100,100",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1630,
+        "y": 1760,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "c0b9d55c340cfe2c",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "8fcdf79e2282e786",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "100%",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0,51,255,255,255",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1610,
+        "y": 1800,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "cd69c13edea8998b",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "8fcdf79e2282e786",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "50%",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0,51,100,100,100",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1610,
+        "y": 1860,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "c2a769f8f1d92210",
+        "type": "ui_button",
+        "z": "4f28ac5d764cb68e",
+        "name": "",
+        "group": "8fcdf79e2282e786",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "消灯",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0,51,0,0,0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1610,
+        "y": 1920,
+        "wires": [
+            [
+                "f34e2baabf3291d6"
+            ]
+        ]
+    },
+    {
+        "id": "9791d5c5d2286075",
+        "type": "inject",
+        "z": "c80a704f826ab278",
+        "name": "single",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 220,
+        "wires": [
+            [
+                "95fc0203829b213d"
+            ]
+        ]
+    },
+    {
+        "id": "95fc0203829b213d",
+        "type": "change",
+        "z": "c80a704f826ab278",
+        "name": "Generate single payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{ \"a\":$floor(100*$random()),\"b\":$floor(100*$random()),\"c\":$floor(100*$random())}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 220,
+        "wires": [
+            [
+                "5e45473844a88d34",
+                "dc821f8717c370df"
+            ]
+        ]
+    },
+    {
+        "id": "5e45473844a88d34",
+        "type": "csv",
+        "z": "c80a704f826ab278",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "a,b,c",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 610,
+        "y": 220,
+        "wires": [
+            [
+                "43bf0e8667158c5e"
+            ]
+        ]
+    },
+    {
+        "id": "43bf0e8667158c5e",
+        "type": "debug",
+        "z": "c80a704f826ab278",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 750,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6b2789ad5be53c97",
+        "type": "inject",
+        "z": "c80a704f826ab278",
+        "name": "array",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 280,
+        "wires": [
+            [
+                "5c10ed0cf90a1832"
+            ]
+        ]
+    },
+    {
+        "id": "5c10ed0cf90a1832",
+        "type": "change",
+        "z": "c80a704f826ab278",
+        "name": "Generate array payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[\t    { \"a\":$floor(100*$random()),\"b\":$floor(100*$random()),\"c\":$floor(100*$random())},\t    { \"a\":$floor(100*$random()),\"b\":$floor(100*$random()),\"c\":$floor(100*$random())},\t    { \"a\":$floor(100*$random()),\"b\":$floor(100*$random()),\"c\":$floor(100*$random())},\t    { \"a\":$floor(100*$random()),\"b\":$floor(100*$random()),\"c\":$floor(100*$random())}\t]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 280,
+        "wires": [
+            [
+                "5019bbb49851728c"
+            ]
+        ]
+    },
+    {
+        "id": "5019bbb49851728c",
+        "type": "csv",
+        "z": "c80a704f826ab278",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": true,
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "a,b,c",
+        "skip": "0",
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "0652edfcfbf7d530"
+            ]
+        ]
+    },
+    {
+        "id": "0652edfcfbf7d530",
+        "type": "debug",
+        "z": "c80a704f826ab278",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 750,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "dc821f8717c370df",
+        "type": "debug",
+        "z": "c80a704f826ab278",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "378de7a560cb445e",
+        "type": "Bh1750",
+        "z": "c80a704f826ab278",
+        "name": "",
+        "bus": "1",
+        "address": "0x23",
+        "topic": "bh1750",
+        "readMode": "",
+        "x": 400,
+        "y": 500,
+        "wires": [
+            [
+                "c38a7040d17e96c3"
+            ]
+        ]
+    },
+    {
+        "id": "88f463ca05f26d47",
+        "type": "inject",
+        "z": "c80a704f826ab278",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 500,
+        "wires": [
+            [
+                "378de7a560cb445e"
+            ]
+        ]
+    },
+    {
+        "id": "c38a7040d17e96c3",
+        "type": "debug",
+        "z": "c80a704f826ab278",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "0ee62d9c8bf4920c",
+        "type": "mqtt in",
+        "z": "e44db36b16481237",
+        "name": "",
+        "topic": "batteryVoltage",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "000e4edd33a489c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 540,
+        "wires": [
+            [
+                "aca5e1b263c421a0"
+            ]
+        ]
+    },
+    {
+        "id": "d6f001d24b55d70d",
+        "type": "debug",
+        "z": "e44db36b16481237",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "aca5e1b263c421a0",
+        "type": "function",
+        "z": "e44db36b16481237",
+        "name": "function 3",
+        "func": "msg.topic = \"INSERT INTO voltage (voltage) VALUES(\" + msg.payload / 1000 + \");\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 540,
+        "wires": [
+            [
+                "d6f001d24b55d70d",
+                "39c4c6d7781f08af"
+            ]
+        ]
+    },
+    {
+        "id": "5381dbe2ce6ab977",
+        "type": "function",
+        "z": "e44db36b16481237",
+        "name": "function 4",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6777741999ed339b",
+        "type": "inject",
+        "z": "e44db36b16481237",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "100",
+        "payloadType": "num",
+        "x": 170,
+        "y": 680,
+        "wires": [
+            [
+                "aca5e1b263c421a0",
+                "d6f001d24b55d70d"
+            ]
+        ]
+    },
+    {
+        "id": "39c4c6d7781f08af",
+        "type": "mysql",
+        "z": "e44db36b16481237",
+        "mydb": "0d1679198b26b03e",
+        "name": "",
+        "x": 750,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a1ae0235229bfe0",
+        "type": "mqtt in",
+        "z": "e44db36b16481237",
+        "name": "",
+        "topic": "TopicLux",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "000e4edd33a489c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 740,
+        "wires": [
+            [
+                "9c43ec04bdb5317a",
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "75e972d383acf784",
+        "type": "mqtt in",
+        "z": "e44db36b16481237",
+        "name": "",
+        "topic": "TopicTemp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "000e4edd33a489c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 800,
+        "wires": [
+            [
+                "9c43ec04bdb5317a",
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "cd03ebdc5d487804",
+        "type": "mqtt in",
+        "z": "e44db36b16481237",
+        "name": "",
+        "topic": "TopicPress",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "000e4edd33a489c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 920,
+        "wires": [
+            [
+                "9c43ec04bdb5317a",
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "55099c6532b551f6",
+        "type": "mqtt in",
+        "z": "e44db36b16481237",
+        "name": "",
+        "topic": "TopicSoil",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "000e4edd33a489c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 980,
+        "wires": [
+            [
+                "9c43ec04bdb5317a",
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "44b1e4b94c81ecaa",
+        "type": "mqtt in",
+        "z": "e44db36b16481237",
+        "name": "",
+        "topic": "TopicVoltage",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "000e4edd33a489c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 1040,
+        "wires": [
+            [
+                "9c43ec04bdb5317a",
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "9c43ec04bdb5317a",
+        "type": "debug",
+        "z": "e44db36b16481237",
+        "name": "debug 28",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "53b2f2bd792794f3",
+        "type": "mqtt in",
+        "z": "e44db36b16481237",
+        "name": "",
+        "topic": "OutTopic",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "000e4edd33a489c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 1100,
+        "wires": [
+            [
+                "9c43ec04bdb5317a"
+            ]
+        ]
+    },
+    {
+        "id": "3727948e97b341e4",
+        "type": "function",
+        "z": "e44db36b16481237",
+        "name": "SQL生成",
+        "func": "msg.topic = \"INSERT INTO sensenode01 (lux,temp,hum,press,soil,voltage) VALUES(\" \n    + msg.payload.TopicLux + \",\"\n    + msg.payload.TopicTemp + \",\"\n    + msg.payload.TopicHum + \",\"\n    + msg.payload.TopicPress + \",\"\n    + msg.payload.TopicSoil / 1000 + \",\"\n    + msg.payload.TopicVoltage / 1000\n    + \");\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 840,
+        "wires": [
+            [
+                "9fb61c1c3fa7e06d",
+                "39c4c6d7781f08af"
+            ]
+        ]
+    },
+    {
+        "id": "8d4504445c850998",
+        "type": "join",
+        "z": "e44db36b16481237",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "10",
+        "count": "6",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 470,
+        "y": 1040,
+        "wires": [
+            [
+                "9c43ec04bdb5317a",
+                "3727948e97b341e4",
+                "39c4c6d7781f08af"
+            ]
+        ]
+    },
+    {
+        "id": "98ec9a34a44b334e",
+        "type": "inject",
+        "z": "e44db36b16481237",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "TopicLux",
+        "payload": "100",
+        "payloadType": "num",
+        "x": 190,
+        "y": 1160,
+        "wires": [
+            [
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "1905698a61ac2a05",
+        "type": "inject",
+        "z": "e44db36b16481237",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "TopicTemp",
+        "payload": "200",
+        "payloadType": "num",
+        "x": 200,
+        "y": 1200,
+        "wires": [
+            [
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "7d9b8d1ba1e9804c",
+        "type": "inject",
+        "z": "e44db36b16481237",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "TopicPress",
+        "payload": "400",
+        "payloadType": "num",
+        "x": 200,
+        "y": 1280,
+        "wires": [
+            [
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "a71c08a12a4a116a",
+        "type": "inject",
+        "z": "e44db36b16481237",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "TopicSoil",
+        "payload": "500",
+        "payloadType": "num",
+        "x": 190,
+        "y": 1320,
+        "wires": [
+            [
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "dbaa9c2e8afdbb26",
+        "type": "inject",
+        "z": "e44db36b16481237",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "TopicVoltage",
+        "payload": "600",
+        "payloadType": "num",
+        "x": 200,
+        "y": 1360,
+        "wires": [
+            [
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "9fb61c1c3fa7e06d",
+        "type": "debug",
+        "z": "e44db36b16481237",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "44181843645553f4",
+        "type": "inject",
+        "z": "e44db36b16481237",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INSERT INTO sensenode01 (lux,temp,hum,press,soil,voltage) VALUES(100,200,undefined,400,0.5,0.6);",
+        "payload": "",
+        "payloadType": "date",
+        "x": 480,
+        "y": 1120,
+        "wires": [
+            [
+                "39c4c6d7781f08af"
+            ]
+        ]
+    },
+    {
+        "id": "c7965795eef0c192",
+        "type": "mqtt in",
+        "z": "e44db36b16481237",
+        "name": "",
+        "topic": "TopicHum",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "000e4edd33a489c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 860,
+        "wires": [
+            [
+                "8d4504445c850998"
+            ]
+        ]
+    },
+    {
+        "id": "2cb5e1e355d181e9",
+        "type": "inject",
+        "z": "e44db36b16481237",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "TopicHum",
+        "payload": "300",
+        "payloadType": "num",
+        "x": 190,
+        "y": 1240,
+        "wires": [
+            [
+                "8d4504445c850998"
+            ]
+        ]
+    }
+]
