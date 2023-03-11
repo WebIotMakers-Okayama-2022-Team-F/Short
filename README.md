@@ -212,14 +212,14 @@ https://qiita.com/airpocket/items/5e73444459b7ad5b0666
   Node-REDのプログラムはこちらを参照してください。
   次のノードが必要ですので事前にパレットに追加してください。
   
-  node-red-contrib-ads1x15_i2c
-  node-red-contrib-aedes
-  node-red-contrib-bh1750
-  node-red-contrib-sht
-  node-red-contrib-dashboard
-  node-red-node-mysql
-  node-red-node-pi-gpio
-  node-red-pi-neopixel
+  node-red-contrib-ads1x15_i2c<BR>
+  node-red-contrib-aedes<BR>
+  node-red-contrib-bh1750<BR>
+  node-red-contrib-sht<BR>
+  node-red-contrib-dashboard<BR>
+  node-red-node-mysql<BR>
+  node-red-node-pi-gpio<BR>
+  node-red-pi-neopixel<BR>
 
 ### Grafanaで可視化
   Grafanaでデータを可視化する方法は次の記事にまとめています。
